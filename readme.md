@@ -1,4 +1,4 @@
-winjslogging.js
+winjslog.js
 ==============
 A logging and reporting JavaScript module for Windows Store Apps.
 ##How to use
