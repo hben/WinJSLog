@@ -22,7 +22,7 @@ First include the winjslog.js file inside default.html or your custom page, then
     var nav = WinJS.Navigation;
 
     app.addEventListener("activated", function (args) {
-      ...// skip for abreviation
+      ...// skip for abbreviation
     }); 
    
     app.onerror = function (e) {
@@ -36,7 +36,7 @@ First include the winjslog.js file inside default.html or your custom page, then
     
     app.start();
 
-    ...// skip for abreviation
+    ...// skip for abbreviation
 })();	
 </pre></blockquote>
 In above code an onerror event handler is registered to catch the unhandled exception to avoid the app's crash, log the crash by Logging.fatal(e), then redirect to home page. Note that the action of redirecting to home page is also logged as a navigation path by Logging.page() function. Following code snippet shows how to log a function invocation and its potential error message:
